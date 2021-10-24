@@ -1,0 +1,19 @@
+{
+  "name": "CHANGE ME",
+  "vendor": "CHANGE ME",
+  "version": "1.0.0",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x"
+  },
+  "title": "",
+  "description": "",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
